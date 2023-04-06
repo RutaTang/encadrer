@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.draggable-region {
+  -webkit-app-region: drag;
+}
+
+.without-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
